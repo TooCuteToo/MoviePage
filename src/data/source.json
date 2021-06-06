@@ -1,0 +1,23 @@
+{
+  "movies": [
+    {
+      "id": 0,
+      "logo": "logo.png",
+      "content": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face withhis alter-ego: the Joker.",
+      "background": "jokerbg.jpg",
+      "slide": "joker",
+      "trailer": "JOKER - Final Trailer - Now Playing In Theaters.mp4",
+      "keyword": "Happy"
+    },
+
+    {
+      "id": 1,
+      "logo": "batmanlogo.png",
+      "content": "After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.",
+      "background": "batmanbg.jpg",
+      "slide": "batman",
+      "trailer": "Batman Begins - 2005 - Official Trailer HD.mp4",
+      "keyword": "Knight"
+    }
+  ]
+}

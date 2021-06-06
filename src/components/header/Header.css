@@ -1,0 +1,45 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.4em 3.125em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #34495e;
+}
+
+.main-header .logo {
+  max-width: 35px;
+  -webkit-filter: invert(0.9);
+  filter: invert(0.9);
+}
+
+.main-header .toggle {
+  max-width: 40px;
+  cursor: pointer;
+}
+
+.main-header .logo img,
+.main-header .toggle img {
+  max-width: 100%;
+}
+
+@media (min-width: 550px) {
+  .main-header {
+    padding: 0.5em 3.25em;
+  }
+  .main-header .logo {
+    max-width: 40px;
+  }
+  .main-header .toggle {
+    max-width: 60px;
+  }
+}

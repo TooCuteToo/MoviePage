@@ -1,0 +1,47 @@
+main {
+  margin-top: 3em;
+  height: 92.7vh;
+  background: #2c3e50;
+}
+
+main h1 {
+  font-family: "Lucida Console", Monaco, monospace;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: -1.4px;
+  word-spacing: -5px;
+  color: #fff;
+  padding: 1em;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  margin: auto;
+  grid-gap: 20px 10px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-grid-columns: (minmax(100px, 150px)) [auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(100px, 150px));
+  width: 80%;
+}
+
+@media (min-width: 540px) {
+  .container {
+    -ms-grid-columns: (minmax(200px, 220px)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(200px, 220px));
+  }
+  .container a span {
+    width: 200px;
+  }
+  .container a img {
+    width: 200px;
+    height: 250px;
+    max-width: 250px;
+    max-height: 300px;
+  }
+}
